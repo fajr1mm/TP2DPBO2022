@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>Pejabat Pemerintahan</title>
+</head>
+
+<body>
+  <header class="bg-gray-200 drop-shadow-lg text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+       <a href="index.php"> <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="http://2.bp.blogspot.com/-Iw1R4Q9NTJM/U6Q5fdwgOyI/AAAAAAAAAII/ngbOQhwJhHc/s1600/LOGO+DPR-RI.png"></a>
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+      </a>
+      <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+        <a href="index.php" class="mr-3 hover:text-gray-900">HOME</a>
+        <a href="details.php" class="mr-3 hover:text-gray-900">DETAILS</a>
+      </nav>
+      <form action="new.php" method="POST">
+        <button type="submit" name="newstaff" class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">+ Pengurus 
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </header>
+
+  <form action="new_divisi.php" method="POST">
+        <div class="px-5 py-10 mx-auto flex justify-center">
+
+          <div class="md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col w-full">
+
+            <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Divisi Baru</h2>
+
+            <div class="relative mb-4">
+              <label for="nama-divisi" class="leading-7 text-sm text-gray-600">Nama Divisi</label>
+              <input type="text" id="tnama" name="tnama" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+
+            <button type="submit" name="add" class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
+          
+         </div>
+        </div>
+  </form>
+</body>
+
+</html>
