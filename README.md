@@ -1,5 +1,13 @@
 # TP2DPBO2022
 
+## Deskripsi
+- Home : untuk menampilkan Pengurus - pengurus dari tabel pengurus di database
+- Detail : untuk menampilkan Divisi - divisi dari tabel divisi di database dan Bidang - bidang dari tabel bidang_divisi di database
+
+Tabel tampilan pengurus yaitu menampilkan nama pengurus serta bidang yang diampu berdasarkan databaase dan id yang terkait
+Tabel tampilan bidang yaitu menampilkan bidang - bidang yang sudah terkait dengan divisi berdasarkan database
+Tabrl tampilan Divisi yaitu untuk menampilkan divisi - divisi berdasarkan dari database
+
 Saya Fajri Maulana Iskandar mengerjakan TP2DPBO2022 dalam mata kuliah DPBO untuk keberkahanNya 
 maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
